@@ -1,0 +1,1 @@
+auth    sufficient  authfile=/etc/Yubico/u2f_keys cue

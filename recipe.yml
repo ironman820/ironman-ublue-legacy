@@ -1,0 +1,24 @@
+rpms:
+flatpaks:
+  - org.mozilla.firefox
+  - org.mozilla.Thunderbird
+  - com.mattjakeman.ExtensionManager
+  - org.libreoffice.LibreOffice
+  - org.gustavoperedo.FontDownloader
+  - com.github.tchx84.Flatseal
+  - org.videolan.VLC
+  - md.obsidian.Obsidian
+  - com.ulduzsoft.Birdtray
+  - org.blender.Blender
+  - org.gimp.GIMP
+  - com.obsproject.Studio
+  - com.github.debauchee.barrier
+  - com.usebottles.bottles
+  - com.microsoft.Edge
+  - com.google.Chrome
+  - com.github.IsmaelMartinez.teams_for_linux
+  - uk.org.greenend.chiark.sgtatham.putty
+  - org.wireshark.Wireshark
+  - org.zotero.Zotero
+  - com.yubico.yubioath
+  - us.zoom.Zoom
