@@ -36,7 +36,7 @@ command='gnome-terminal'
 name='gnome-terminal'
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1]
-binding='<Control><Alt>u'
+binding='<Super>t'
 command='blackbox'
 name='blackbox'
 

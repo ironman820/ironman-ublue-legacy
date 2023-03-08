@@ -83,6 +83,8 @@ if [ "$?" != 0 ] ; then
 fi
 echo "100"
 
+echo "Adding user to docker group"
+/usr/sbin/usermod -aG docker $(whoami)
 
 echo "# Reticulating Final Splines"
 mkdir -p "$HOME"/.config/ublue/
