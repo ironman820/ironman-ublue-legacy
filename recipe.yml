@@ -22,3 +22,4 @@ flatpaks:
   - org.zotero.Zotero
   - com.yubico.yubioath
   - us.zoom.Zoom
+  - com.calibre_ebook.calibre

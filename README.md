@@ -80,7 +80,7 @@ These are currently unimplemented ideas that we plan on adding:
 
 ### Applications
 
-- Mozilla Firefox, Mozilla Thunderbird, Extension Manager, Libreoffice, DejaDup, FontDownloader, Flatseal, and the Celluloid Media Player
+- Mozilla Firefox, Mozilla Thunderbird, Extension Manager, Libreoffice, FontDownloader, Flatseal, ObsidianMD, Birdtray, Blender, Gimp, OBS Studio, Barrier, Bottles, Edge, Chrome, Teams, Putty, Wireshark, Zotero, Yubico Authenticator, Zoom, Calibre, and the VLC Media Player
 - Core GNOME Applications installed from Flathub
   - GNOME Calculator, Calendar, Characters, Connections, Contacts, Evince, Firmware, Logs, Maps, NautilusPreviewer, TextEditor, Weather, baobab, clocks, eog, and font-viewer
 - All applications installed per user instead of system wide, similar to openSUSE MicroOS. Thanks for the inspiration Team Green!
@@ -89,7 +89,7 @@ These are currently unimplemented ideas that we plan on adding:
 
 These images are signed with sisgstore's [cosign](https://docs.sigstore.dev/cosign/overview/). You can verify the signature by downloading the `cosign.pub` key from this repo and running the following command:
 
-    cosign verify --key cosign.pub ghcr.io/ublue-os/ubuntu
+    cosign verify --key cosign.pub ghcr.io/ironman820/ironman-ublue
 
 ## Frequently Asked Questions
 
@@ -107,7 +107,3 @@ How do I get my GNOME back to normal Fedora defaults?
 
     sudo rm -f /etc/dconf/db/local
     sudo dconf update
-
-Should I trust you?
-
-> This is all hosted, built, and pushed on GitHub. As far as if I'm a trustable fellow, here's my [bio](https://www.ypsidanger.com/about/). If you've made it this far then hopefully you've come to the conclusion on how easy it would be to build all of this on your own trusted machinery. :smile:
