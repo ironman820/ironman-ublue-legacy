@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/ironman820/ironman-ublue/compare/v1.0.0...v1.1.0) (2023-03-10)
+
+
+### Features
+
+* :recycle: Replace syncthing with Syncthing GTK Flatpak ([86e0a8e](https://github.com/ironman820/ironman-ublue/commit/86e0a8e5f63a76d4cc5adf554eff24677aed1bf1))
+
 ## 1.0.0 (2023-03-10)
 
 
