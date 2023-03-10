@@ -25,7 +25,7 @@ RUN rpm-ostree install blackbox-terminal gnome-shell-extension-appindicator \
     gnome-shell-extension-blur-my-shell gnome-shell-extension-gsconnect nautilus-gsconnect \
     # libgda libgda-sqlite libratbag-ratbagd openssl podman-docker python3-input-remapper \
     libgda libgda-sqlite libratbag-ratbagd openssl python3-input-remapper \
-    webapp-manager yaru-theme gnome-tweaks syncthing pam-u2f pamu2fcfg \
+    webapp-manager yaru-theme gnome-tweaks pam-u2f pamu2fcfg \
     python3 python3-pip \
     docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin && \
     rm -f /var/lib/unbound/root.key && \
