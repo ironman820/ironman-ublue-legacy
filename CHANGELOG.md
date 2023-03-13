@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/ironman820/ironman-ublue/compare/v1.2.0...v1.2.1) (2023-03-13)
+
+
+### Bug Fixes
+
+* :bug: Created a symlink to fix Yubikey GPG issues ([1adcef3](https://github.com/ironman820/ironman-ublue/commit/1adcef3f95a1340727c198ee90dcfcab2b31ff85))
+
 ## [1.2.0](https://github.com/ironman820/ironman-ublue/compare/v1.1.0...v1.2.0) (2023-03-13)
 
 
