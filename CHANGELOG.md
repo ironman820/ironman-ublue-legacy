@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.0](https://github.com/ironman820/ironman-ublue/compare/v1.1.0...v1.2.0) (2023-03-13)
+
+
+### Features
+
+* :sparkles: Remove syncthing-gtk and replace with syncthing ([327491f](https://github.com/ironman820/ironman-ublue/commit/327491fd013b78977a0d793dd194a0f4aac520fb))
+
+
+### Bug Fixes
+
+* :bug: Corrected installation and removal issues with previous push ([d1d8191](https://github.com/ironman820/ironman-ublue/commit/d1d8191d4574da4e108fca9b3acda350aee96e61))
+
 ## [1.1.0](https://github.com/ironman820/ironman-ublue/compare/v1.0.0...v1.1.0) (2023-03-10)
 
 
