@@ -23,12 +23,11 @@ RUN wget https://download.docker.com/linux/fedora/docker-ce.repo -O /etc/yum.rep
 RUN rpm-ostree override replace --experimental --from repo=copr:copr.fedorainfracloud.org:kylegospo:gnome-vrr mutter gnome-control-center gnome-control-center-filesystem
 RUN rpm-ostree override remove gnome-software-rpm-ostree firefox firefox-langpacks
 RUN rpm-ostree install blackbox-terminal gnome-shell-extension-appindicator \
-    gnome-shell-extension-blur-my-shell gnome-shell-extension-sound-output-device-chooser \
+    gnome-shell-extension-blur-my-shell \
     gnome-shell-extension-no-overview gnome-shell-extension-gpaste \
     gnome-shell-extension-just-perfection \
-    # libgda libgda-sqlite libratbag-ratbagd openssl podman-docker python3-input-remapper \
     libgda libgda-sqlite libratbag-ratbagd openssl python3-input-remapper \
-    webapp-manager yaru-theme gnome-tweaks pam-u2f pamu2fcfg \
+    webapp-manager yaru-theme gnome-tweaks pam-u2f pamu2fcfg pcsc-lite \
     python3 python3-pip syncthing \
     docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin && \
     rm -f /var/lib/unbound/root.key && \
@@ -37,6 +36,9 @@ RUN rpm-ostree install blackbox-terminal gnome-shell-extension-appindicator \
     systemctl enable dconf-update.service && \
     systemctl enable rpm-ostree-countme.service && \
     systemctl enable docker && \
+    systemctl enable pcscd && \
+    systemctl enable pcscd.socket && \
+    ln -fs /usr/lib64/libpcsclite.so.1 /usr/lib64/libpcsclite.so && \
     fc-cache -f /usr/share/fonts/ubuntu && \
     rm -rf /usr/share/gnome-shell/extensions/background-logo@fedorahosted.org && \
     rm -f /etc/yum.repos.d/terra.repo && \
