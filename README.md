@@ -1,4 +1,7 @@
-# Ironman-uBlue
+# Ironman-uBlue LEGACY BUILD
+
+> **Warning**
+> ***THIS BUILD HAS BEEN ARCHIVED AND IS NOW CONSIDERED LEGACY AS WE FORK AND START USING UBLUE-OS/BLUEFIN AS A BASE***
 
 A familiar(ish) Ubuntu desktop for Fedora Silverblue "forked" from ublue-os/ubuntu and edited for my primary use cases.
 Currently you'll need to have Fedora Silverblue installed to rebase to this image (see below). We will provide ISOs as soon as the custom image feature lands in the Fedora installer.
